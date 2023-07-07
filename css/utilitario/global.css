@@ -167,6 +167,6 @@ html:has(#toggle:checked) .label .ball {
 
 @media (max-width: 400px) {
   .container {
-    padding: 40px 20px;
+    padding: 20px 20px;
   }
 }

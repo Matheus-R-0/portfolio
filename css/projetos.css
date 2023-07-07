@@ -12,6 +12,11 @@
   flex-direction: column;
 }
 
+.projetos-itens li {
+  display: flex;
+  flex-direction: column;
+}
+
 .projetos > a {
   align-self: end;
 }
@@ -82,7 +87,6 @@ html:has(#toggle:checked) .projeto-info {
 }
 
 .tecnologia-lista li {
-  grid-template-columns: 1fr;
   border: 1px solid var(--cor-c3);
   border-radius: 6px;
   font: 600 1.125rem/1.33 "Poppins", sans-serif;
@@ -102,7 +106,7 @@ html:has(#toggle:checked) .tecnologia-lista li:hover{
 }
 
 .projetos-itens img {
-  object-fit: contain;
+  object-fit: cover;
 }
 
 @media (max-width: 800px) {
