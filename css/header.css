@@ -60,7 +60,7 @@ html:has(#toggle:checked) .menu li a:hover {
     top: 70px;
     right: 0px;
     height: 0;
-    transition: .4s ;
+    transition: .6s ;
     z-index: 99999;
     visibility: hidden;
     overflow-y: hidden;

@@ -5,7 +5,7 @@
 
 #habilidades-page .habilidades h2 {
   text-align: center;
-  margin-top: 32px;
+  margin-top: 48px;
 }
 
 .habilidades h2 {
@@ -53,6 +53,9 @@
 }
 
 @media (max-width: 600px) {
+  #habilidades-page .habilidades h2 {
+    margin-top: 60px;
+  }
   .habilidade-item img {
     width: 80px;
   }
