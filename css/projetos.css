@@ -111,12 +111,6 @@ html:has(#toggle:checked) .tecnologia-lista li:hover{
   object-fit: contain;
 }
 
-@media (max-width: 1000px) {
-  .projetos-itens > li {
-    margin-bottom: 0;
-  }
-}
-
 @media (max-width: 800px) {
   .projetos h2 {
     margin-bottom: 40px;

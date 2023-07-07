@@ -1,5 +1,6 @@
 .habilidades {
   display: grid;
+  grid-template-columns: 1fr;
 }
 
 #habilidades-page .habilidades h2 {
