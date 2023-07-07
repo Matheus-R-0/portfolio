@@ -29,8 +29,9 @@
   margin-bottom: 24px;
 }
 
-.projetos-lista img {
+.projetos-itens li img {
   border-radius: 6px 6px 0 0;
+  object-fit: fill;
 }
 
 .projetos-itens {
@@ -103,10 +104,6 @@ html:has(#toggle:checked) .tecnologia-lista li{
 }
 html:has(#toggle:checked) .tecnologia-lista li:hover{
   border: 1px solid var(--cor-v6);
-}
-
-.projetos-itens img {
-  object-fit: cover;
 }
 
 @media (max-width: 800px) {
