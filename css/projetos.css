@@ -8,11 +8,12 @@
 }
 
 .projetos {
-  display: grid;
+  display: flex;
+  flex-direction: column;
 }
 
 .projetos > a {
-  justify-self: end;
+  align-self: end;
 }
 
 .projetos span {
@@ -28,10 +29,12 @@
 }
 
 .projetos-itens {
-  display: grid;
+
 }
 
 .projetos-itens {
+  display: flex;
+  flex-direction: column;
   gap: 40px;
 }
 
