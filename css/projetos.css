@@ -7,15 +7,12 @@
   margin-top: 32px;
 }
 
-.projetos {
-  display: flex;
-  flex-direction: column;
+
+.projetos-itens img {
+  object-fit: cover;
+  height: auto;
 }
 
-.projetos-itens li {
-  display: flex;
-  flex-direction: column;
-}
 
 .projetos > a {
   align-self: end;
@@ -25,19 +22,18 @@
   color: var(--cor-v5);
 }
 
-.projetos-lista {
-  margin-bottom: 24px;
-}
-
 .projetos-itens li img {
   border-radius: 6px 6px 0 0;
   object-fit: fill;
 }
 
-.projetos-itens {
-  display: flex;
-  flex-direction: column;
-  gap: 40px;
+.projetos-itens > li {
+  margin-bottom: 40px;
+}
+
+.flex {
+ display: flex;
+ justify-content: end;
 }
 
 .projeto-info {
@@ -144,8 +140,5 @@ html:has(#toggle:checked) .tecnologia-lista li:hover{
   .tecnologia-lista li {
     font-size: .875rem;
     padding: 6px;
-  }
-  .projetos-lista {
-    margin-bottom: 4px;
   }
 }
