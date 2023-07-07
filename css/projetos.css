@@ -29,18 +29,9 @@
 }
 
 .projetos-itens {
-
-}
-
-.projetos-itens {
   display: flex;
   flex-direction: column;
   gap: 40px;
-}
-
-.projetos-itens li {
-  display: grid;
-  align-items: end;
 }
 
 .projeto-info {
