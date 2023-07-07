@@ -1,5 +1,19 @@
-@import 'global.css';
+@import './utilitario/global.css';
 
-@import 'tipografia.css';
+@import './utilitario/cores.css';
 
-@import 'cores.css';
+@import './utilitario//tipografia.css';
+
+
+@import 'header.css';
+
+@import 'intro.css';
+
+@import 'sobremim.css';
+
+@import 'habilidades.css';
+
+@import 'projetos.css';
+
+@import 'footer.css';
+@import 'certificados.css';

@@ -25,3 +25,32 @@
 .font2-p {
   font: 400 1.125rem/1.4 "Roboto", sans-serif;
 }
+
+@media (max-width: 800px) {
+  .font1-gg {
+    font-size: 3.5rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .font1-gg {
+    font-size: 2.5rem;
+  }
+  .font2-m {
+    font-size: 1rem;
+  }
+  .font1-m {
+    font-size: 1rem;
+  }
+}
+@media (max-width: 400px) {
+  .font1-gg {
+    font-size: 2rem;
+  }
+  .font2-m-b {
+    font-size: .875rem;
+  }
+  .font2-p {
+    font-size: .875rem;
+  }
+}

@@ -1,0 +1,51 @@
+.sobre-mim h2 {
+  margin-bottom: 80px;
+}
+
+.sobre-mim span {
+  color: var(--cor-v5);
+}
+
+.sobremim-info {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  align-items: center;
+  gap: 40px;
+}
+
+.sobre-mim img {
+  border-radius: 20px 20px 20px 0;
+}
+
+.sobremim-text {
+  display: grid;
+}
+
+.sobremim-text p {
+  margin-bottom: 32px;
+  max-width: 60ch;
+}
+
+.sobremim-text a {
+  color: var(--cor-v11);
+  justify-self: start;
+}
+
+
+@media (max-width: 800px) {
+  .sobremim-info {
+    grid-template-columns: 1fr;
+  }
+  .sobremim-text {
+    grid-row: 1;
+  }
+  .sobre-mim h2 {
+    margin-bottom: 40px;
+  }
+}
+
+@media (max-width: 600px) {
+  .sobre-mim h2 {
+    margin-bottom: 32px;
+  }
+}

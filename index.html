@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Portfólio</title>
   <meta name="description" content="Bem-vindo ao meu portfólio, aqui você verá minhas habilidades e projetos.">
 
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="./css/style.css" as="style">
   <link rel="stylesheet" href="./css/style.css">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -13,7 +16,208 @@
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 
 </head>
-<body>
-  
+
+<body class="body-bg">
+
+  <header id="header" class="menu-bg">
+    <div class="header">
+      <svg width="263" height="36" viewBox="0 0 263 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path class="logo-c" d="M36.528 2.016V35.52H29.808V13.728L20.832 35.52H15.744L6.72 13.728V35.52H0V2.016H7.632L18.288 26.928L28.944 2.016H36.528Z" fill="#F5F5F5" />
+        <path class="logo-c" d="M41.4439 22.128C41.4439 19.44 41.9719 17.056 43.0279 14.976C44.1159 12.896 45.5719 11.296 47.3959 10.176C49.2519 9.056 51.3159 8.496 53.5879 8.496C55.5719 8.496 57.2999 8.896 58.7719 9.696C60.2759 10.496 61.4759 11.504 62.3719 12.72V8.928H69.1399V35.52H62.3719V31.632C61.5079 32.88 60.3079 33.92 58.7719 34.752C57.2679 35.552 55.5239 35.952 53.5399 35.952C51.2999 35.952 49.2519 35.376 47.3959 34.224C45.5719 33.072 44.1159 31.456 43.0279 29.376C41.9719 27.264 41.4439 24.848 41.4439 22.128ZM62.3719 22.224C62.3719 20.592 62.0519 19.2 61.4119 18.048C60.7719 16.864 59.9079 15.968 58.8199 15.36C57.7319 14.72 56.5639 14.4 55.3159 14.4C54.0679 14.4 52.9159 14.704 51.8599 15.312C50.8039 15.92 49.9399 16.816 49.2679 18C48.6279 19.152 48.3079 20.528 48.3079 22.128C48.3079 23.728 48.6279 25.136 49.2679 26.352C49.9399 27.536 50.8039 28.448 51.8599 29.088C52.9479 29.728 54.0999 30.048 55.3159 30.048C56.5639 30.048 57.7319 29.744 58.8199 29.136C59.9079 28.496 60.7719 27.6 61.4119 26.448C62.0519 25.264 62.3719 23.856 62.3719 22.224Z" fill="#F5F5F5" />
+        <path class="logo-c" d="M83.5271 14.448V27.312C83.5271 28.208 83.7351 28.864 84.1511 29.28C84.5991 29.664 85.3351 29.856 86.3591 29.856H89.4791V35.52H85.2551C79.5911 35.52 76.7591 32.768 76.7591 27.264V14.448H73.5911V8.928H76.7591V2.352H83.5271V8.928H89.4791V14.448H83.5271Z" fill="#F5F5F5" />
+        <path class="logo-c" d="M109.288 8.544C111.304 8.544 113.097 8.992 114.665 9.888C116.233 10.752 117.449 12.048 118.312 13.776C119.208 15.472 119.657 17.52 119.657 19.92V35.52H112.937V20.832C112.937 18.72 112.409 17.104 111.353 15.984C110.297 14.832 108.857 14.256 107.033 14.256C105.177 14.256 103.705 14.832 102.617 15.984C101.561 17.104 101.033 18.72 101.033 20.832V35.52H94.3125V0H101.033V12.24C101.897 11.088 103.049 10.192 104.489 9.552C105.929 8.88 107.528 8.544 109.288 8.544Z" fill="#F5F5F5" />
+        <path class="logo-c" d="M150.767 21.648C150.767 22.608 150.703 23.472 150.575 24.24H131.135C131.295 26.16 131.967 27.664 133.151 28.752C134.335 29.84 135.791 30.384 137.519 30.384C140.015 30.384 141.791 29.312 142.847 27.168H150.095C149.327 29.728 147.855 31.84 145.679 33.504C143.503 35.136 140.831 35.952 137.663 35.952C135.103 35.952 132.799 35.392 130.751 34.272C128.735 33.12 127.151 31.504 125.999 29.424C124.879 27.344 124.319 24.944 124.319 22.224C124.319 19.472 124.879 17.056 125.999 14.976C127.119 12.896 128.687 11.296 130.703 10.176C132.719 9.056 135.039 8.496 137.663 8.496C140.191 8.496 142.447 9.04 144.431 10.128C146.447 11.216 147.999 12.768 149.087 14.784C150.207 16.768 150.767 19.056 150.767 21.648ZM143.807 19.728C143.775 18 143.151 16.624 141.935 15.6C140.719 14.544 139.231 14.016 137.471 14.016C135.807 14.016 134.399 14.528 133.247 15.552C132.127 16.544 131.439 17.936 131.183 19.728H143.807Z" fill="#F5F5F5" />
+        <path class="logo-c" d="M180.776 8.928V35.52H174.008V32.16C173.144 33.312 172.008 34.224 170.6 34.896C169.224 35.536 167.72 35.856 166.088 35.856C164.008 35.856 162.168 35.424 160.568 34.56C158.968 33.664 157.704 32.368 156.776 30.672C155.88 28.944 155.432 26.896 155.432 24.528V8.928H162.152V23.568C162.152 25.68 162.68 27.312 163.736 28.464C164.792 29.584 166.232 30.144 168.056 30.144C169.912 30.144 171.368 29.584 172.424 28.464C173.48 27.312 174.008 25.68 174.008 23.568V8.928H180.776Z" fill="#F5F5F5" />
+        <path class="logo-c" d="M197.582 35.952C195.406 35.952 193.454 35.568 191.726 34.8C189.998 34 188.622 32.928 187.598 31.584C186.606 30.24 186.062 28.752 185.966 27.12H192.734C192.862 28.144 193.358 28.992 194.222 29.664C195.118 30.336 196.222 30.672 197.534 30.672C198.814 30.672 199.806 30.416 200.51 29.904C201.246 29.392 201.614 28.736 201.614 27.936C201.614 27.072 201.166 26.432 200.27 26.016C199.406 25.568 198.014 25.088 196.094 24.576C194.11 24.096 192.478 23.6 191.198 23.088C189.95 22.576 188.862 21.792 187.934 20.736C187.038 19.68 186.59 18.256 186.59 16.464C186.59 14.992 187.006 13.648 187.838 12.432C188.702 11.216 189.918 10.256 191.486 9.552C193.086 8.848 194.958 8.496 197.102 8.496C200.27 8.496 202.798 9.296 204.686 10.896C206.574 12.464 207.614 14.592 207.806 17.28H201.374C201.278 16.224 200.83 15.392 200.03 14.784C199.262 14.144 198.222 13.824 196.91 13.824C195.694 13.824 194.75 14.048 194.078 14.496C193.438 14.944 193.118 15.568 193.118 16.368C193.118 17.264 193.566 17.952 194.462 18.432C195.358 18.88 196.75 19.344 198.638 19.824C200.558 20.304 202.142 20.8 203.39 21.312C204.638 21.824 205.71 22.624 206.606 23.712C207.534 24.768 208.014 26.176 208.046 27.936C208.046 29.472 207.614 30.848 206.75 32.064C205.918 33.28 204.702 34.24 203.102 34.944C201.534 35.616 199.694 35.952 197.582 35.952Z" fill="#F5F5F5" />
+        <path d="M242.28 35.52L234.888 22.464H231.72V35.52H225V2.016H237.576C240.168 2.016 242.376 2.48 244.2 3.408C246.024 4.304 247.384 5.536 248.28 7.104C249.208 8.64 249.672 10.368 249.672 12.288C249.672 14.496 249.032 16.496 247.752 18.288C246.472 20.048 244.568 21.264 242.04 21.936L250.056 35.52H242.28ZM231.72 17.424H237.336C239.16 17.424 240.52 16.992 241.416 16.128C242.312 15.232 242.76 14 242.76 12.432C242.76 10.896 242.312 9.712 241.416 8.88C240.52 8.016 239.16 7.584 237.336 7.584H231.72V17.424Z" fill="#E80505" />
+        <path d="M258.726 35.856C257.51 35.856 256.502 35.488 255.702 34.752C254.934 33.984 254.55 33.04 254.55 31.92C254.55 30.8 254.934 29.872 255.702 29.136C256.502 28.368 257.51 27.984 258.726 27.984C259.91 27.984 260.886 28.368 261.654 29.136C262.422 29.872 262.806 30.8 262.806 31.92C262.806 33.04 262.422 33.984 261.654 34.752C260.886 35.488 259.91 35.856 258.726 35.856Z" fill="#E80505" />
+      </svg>
+      <nav id="nav">
+        <button id="btn-mobile" aria-haspopup="true" aria-controls="menu" aria-expanded="false"><i class="fa-solid fa-bars title-c"></i></button>
+        <ul class="menu font2-m menu-bg">
+          <li><a class="menu-p" href="#sobremim">Sobre Mim</a></li>
+          <li><a class="menu-p" href="#habilidades">Habilidades</a></li>
+          <li><a class="menu-p" href="#projetos">Projetos</a></li>
+          <div class="btn-theme">
+            <input type="checkbox" class="checkbox" id="toggle">
+            <label class="label" for="toggle">
+              <i class="fa-solid fa-moon"></i>
+              <i class="fa-solid fa-sun"></i>
+              <div class="ball"></div>
+            </label>
+          </div>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section>
+    <div class="intro container">
+      <div class="intro-info">
+        <h1 class="font1-gg title-c">Desenvolvedor Front End & UI Designer</h1>
+        <a class="btn font2-m-b cor-v11" href="https://wa.link/mhx4ww" target="_blank">Contratar Serviço</a>
+        <div class="redes-sociais">
+          <ul class="social-itens">
+            <li><a href="https://www.linkedin.com/in/matheus-rodrigues-silva-reis-2ba79b244/" target="_blank"><svg width="32" height="32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <g clip-path="url(#a)">
+                    <path class="icon-c" d="M0 2.292C0 1.026 1.052 0 2.35 0h27.3C30.948 0 32 1.026 32 2.292v27.416C32 30.974 30.948 32 29.65 32H2.35C1.052 32 0 30.974 0 29.708V2.292Zm9.886 24.496v-14.45H5.084v14.45h4.802Zm-2.4-16.424c1.674 0 2.716-1.108 2.716-2.496-.03-1.418-1.04-2.496-2.684-2.496-1.644 0-2.718 1.08-2.718 2.496 0 1.388 1.042 2.496 2.654 2.496h.032Zm9.816 16.424v-8.07c0-.432.032-.864.16-1.172.346-.862 1.136-1.756 2.464-1.756 1.738 0 2.432 1.324 2.432 3.268v7.73h4.802V18.5c0-4.44-2.368-6.504-5.528-6.504-2.548 0-3.69 1.4-4.33 2.386v.05h-.032l.032-.05v-2.044h-4.8c.06 1.356 0 14.45 0 14.45h4.8Z" fill="#F5F5F5" />
+                  </g>
+                  <defs>
+                    <clipPath id="a">
+                      <path fill="#fff" d="M0 0h32v32H0z" />
+                    </clipPath>
+                  </defs>
+                </svg></a></li>
+            <li><a href="https://github.com/Matheus-R-0" target="_blank"><svg width="32" height="32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <g clip-path="url(#a)">
+                    <path class="icon-c" d="M16 0C7.16 0 0 7.16 0 16c0 7.08 4.58 13.06 10.94 15.18.8.14 1.1-.34 1.1-.76 0-.38-.02-1.64-.02-2.98-4.02.74-5.06-.98-5.38-1.88-.18-.46-.96-1.88-1.64-2.26-.56-.3-1.36-1.04-.02-1.06 1.26-.02 2.16 1.16 2.46 1.64 1.44 2.42 3.74 1.74 4.66 1.32.14-1.04.56-1.74 1.02-2.14-3.56-.4-7.28-1.78-7.28-7.9 0-1.74.62-3.18 1.64-4.3-.16-.4-.72-2.04.16-4.24 0 0 1.34-.42 4.4 1.64 1.28-.36 2.64-.54 4-.54 1.36 0 2.72.18 4 .54 3.06-2.08 4.4-1.64 4.4-1.64.88 2.2.32 3.84.16 4.24 1.02 1.12 1.64 2.54 1.64 4.3 0 6.14-3.74 7.5-7.3 7.9.58.5 1.08 1.46 1.08 2.96 0 2.14-.02 3.86-.02 4.4 0 .42.3.92 1.1.76A16.024 16.024 0 0 0 32 16c0-8.84-7.16-16-16-16Z" fill="#F5F5F5" />
+                  </g>
+                  <defs>
+                    <clipPath id="a">
+                      <path fill="#fff" d="M0 0h32v32H0z" />
+                    </clipPath>
+                  </defs>
+                </svg></a></li>
+            <li><a href="https://www.instagram.com/matheus___reiss/" target="_blank"><svg width="32" height="32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <g clip-path="url(#a)">
+                    <path class="icon-c" d="M16 0c-4.342 0-4.888.02-6.594.096C7.7.176 6.538.444 5.52.84a7.834 7.834 0 0 0-2.834 1.846A7.854 7.854 0 0 0 .84 5.52C.444 6.536.174 7.7.096 9.4.02 11.11 0 11.654 0 16.002c0 4.344.02 4.888.096 6.594.08 1.704.348 2.866.744 3.884a7.858 7.858 0 0 0 1.846 2.834 7.808 7.808 0 0 0 2.832 1.846c1.02.396 2.18.666 3.884.744C11.11 31.98 11.654 32 16 32s4.888-.02 6.596-.096c1.702-.08 2.868-.348 3.886-.744a7.831 7.831 0 0 0 2.832-1.846 7.858 7.858 0 0 0 1.846-2.834c.394-1.018.664-2.18.744-3.884C31.98 20.89 32 20.346 32 16s-.02-4.89-.096-6.598c-.08-1.702-.35-2.866-.744-3.882a7.853 7.853 0 0 0-1.846-2.834A7.822 7.822 0 0 0 26.48.84C25.46.444 24.296.174 22.594.096 20.886.02 20.344 0 15.996 0h.006H16Zm-1.434 2.884h1.436c4.272 0 4.778.014 6.464.092 1.56.07 2.408.332 2.972.55.746.29 1.28.638 1.84 1.198.56.56.906 1.092 1.196 1.84.22.562.48 1.41.55 2.97.078 1.686.094 2.192.094 6.462s-.016 4.778-.094 6.464c-.07 1.56-.332 2.406-.55 2.97a4.94 4.94 0 0 1-1.198 1.838c-.56.56-1.092.906-1.84 1.196-.56.22-1.408.48-2.97.552-1.686.076-2.192.094-6.464.094s-4.78-.018-6.466-.094c-1.56-.072-2.406-.332-2.97-.552a4.956 4.956 0 0 1-1.84-1.196 4.96 4.96 0 0 1-1.2-1.84c-.218-.562-.48-1.41-.55-2.97-.076-1.686-.092-2.192-.092-6.466 0-4.272.016-4.776.092-6.462.072-1.56.332-2.408.552-2.972.29-.746.638-1.28 1.198-1.84a4.943 4.943 0 0 1 1.84-1.196c.564-.22 1.41-.48 2.97-.552 1.476-.068 2.048-.088 5.03-.09v.004Zm9.976 2.656a1.92 1.92 0 1 0 0 3.841 1.92 1.92 0 0 0 0-3.841Zm-8.54 2.244a8.218 8.218 0 1 0-.256 16.433 8.218 8.218 0 0 0 .256-16.433Zm0 2.882a5.334 5.334 0 1 1 0 10.668 5.334 5.334 0 0 1 0-10.668Z" fill="#F5F5F5" />
+                  </g>
+                  <defs>
+                    <clipPath id="a">
+                      <path fill="#fff" d="M0 0h32v32H0z" />
+                    </clipPath>
+                  </defs>
+                </svg></a></li>
+          </ul>
+        </div>
+      </div>
+      <picture>
+        <img src="./img/home/intro-image.svg" alt="Homem Programando">
+      </picture>
+    </div>
+  </section>
+
+  <article class="sobre-mim container" id="sobremim">
+    <h2 class="font1-gg title-c">Sobre Mim<span>.</span></h2>
+    <div class="sobremim-info">
+      <picture>
+        <img src="./img/home/sobremim.jpg" alt="Foto de Perfil" width="920" height="920">
+      </picture>
+      <div class="sobremim-text">
+        <p class="font2-m paragrafo-c">Olá, me chamo Matheus Rodrigues, tenho 20 anos e busco uma oportunidade de emprego na área da TI. Sempre fui fascinado por tecnologia e tudo que ela abrange, já trabalhei com informática básica, formatando computadores e fazendo redes de internet. Atualmente estou estudando sobre o Front End, e trabalhando como Freelancer, melhorando um pouco mais a cada dia, quero agregar como um ótimo desenvolvedor nessa área, sugerindo ideias e colocando-as em prática.</p>
+        <a href="../../../Downloads/curriculo-matheus.pdf" download="Baixar PDF" target="_blank"><button class="font2-m-b btn download">Baixar CV</button></a>
+      </div>
+    </div>
+  </article>
+
+  <article id="habilidades" class="habilidades container">
+    <h2 class="font1-gg title-c">Habilidades<span>.</span></h2>
+
+    <div class="habilidades-lista">
+      <ul class="habilidades-itens">
+        <li class="habilidade-item square-bg square-borda">
+          <h3 class="title-c">HTML5</h3>
+          <img src="./img/icones/html5.svg" alt="" width="120" height="120">
+          <a class="btn seta cor-v11" href="./certificados/html-css.html" target="_blank">Certificado</a>
+        </li>
+        <li class="habilidade-item square-bg square-borda">
+          <h3 class="title-c">CSS3</h3>
+          <img src="./img/icones/css3.svg" alt="" width="120" height="120">
+          <a class="btn seta cor-v11" href="./certificados/html-css.html" target="_blank">Certificado</a>
+        </li>
+        <li class="habilidade-item square-bg square-borda">
+          <h3 class="title-c">Javascript</h3>
+          <img src="./img/icones/javascript.svg" alt="" width="120" height="120">
+          <a class="btn off cor-off" href="./">Indisponível</a>
+        </li>
+        <li class="habilidade-item square-bg square-borda">
+          <h3 class="title-c">Figma</h3>
+          <img src="./img/icones/figma.svg" alt="" width="120" height="120">
+          <a class="btn off cor-off" href="./">Indisponível</a>
+        </li>
+        <li class="habilidade-item square-bg square-borda">
+          <h3 class="title-c">UI Design</h3>
+          <img src="./img/icones/ui-design.svg" alt="" width="120" height="120">
+          <a class="btn seta cor-v11" href="./certificados/ui-design.html" target="_blank">Certificado</a>
+        </li>
+        <li class="habilidade-item square-bg square-borda">
+          <h3 class="title-c">Em Processo</h3>
+          <img src="./img/icones/carregando.svg" alt="" width="120" height="120">
+          <a class="btn off cor-off" href="./">Indisponível</a>
+        </li>
+      </ul>
+    </div>
+
+    <a id="vermais" class="btn white botao-sec font2-m-b" href="./skills.html">Ver Mais</a>
+
+  </article>
+
+  <article id="projetos" class="projetos container">
+
+    <h2 class="font1-gg title-c">Projetos<span>.</span></h2>
+
+    <div class="projetos-lista">
+      <ul class="projetos-itens">
+        <li>
+          <picture>
+            <source media="(max-width: 600px)" srcset="./img/home/projeto-valhalla-mobile.jpg">
+            <img src="./img/home/projeto-valhalla.jpg" alt="">
+          </picture>
+          <div class="projeto-info square-bg">
+            <div class="projeto-text">
+              <h3 class="title-c">Valhalla Axes</h3>
+              <p class="paragrafo-c">Ecommerce fictício inspirado na mitologia nórdica, imagens e copy criadas com IA. Totalmente responsivo e bem otimizado.</p>
+              <a class="btn seta cor-v11 font2-m-b" href="https://matheus-r-0.github.io/valhalla-axes/" target="_blank">Ver Projeto</a>
+              <a class="btn white botao-sec font2-m-b" href="https://github.com/Matheus-R-0/valhalla-axes" target="_blank">Repositório</a>
+            </div>
+            <div class="tecnologia">
+              <h3 class="title-c">Tecnologias</h3>
+              <ul class="tecnologia-lista">
+                <li class="tec-bg">Html5</li>
+                <li class="tec-bg">Css3</li>
+                <li class="tec-bg">Javascript</li>
+                <li class="tec-bg">Figma</li>
+                <li class="tec-bg">Git</li>
+              </ul>
+            </div>
+          </div>
+        </li>
+        <li>
+          <picture>
+            <source media="(max-width: 600px)" srcset="./img/home/projeto-estetica-mobile.jpg">
+            <img src="./img/home/projeto-estetica.jpg" alt="">
+          </picture>
+          <div class="projeto-info square-bg">
+            <div class="projeto-text">
+              <h3 class="title-c">Estetica Beauty</h3>
+              <p class="paragrafo-c">Landing page criada do zero com HTML e CSS, totalmente responsiva e bem otimizada.</p>
+              <a class="btn seta cor-v11 font2-m-b" href="https://matheus-r-0.github.io/esteticabeauty.github.io/">Ver Projeto</a>
+              <a class="btn white botao-sec font2-m-b" href="https://github.com/Matheus-R-0/esteticabeauty.github.io" target="_blank">Repositório</a>
+            </div>
+            <div class="tecnologia">
+              <h3 class="title-c">Tecnologias</h3>
+              <ul class="tecnologia-lista">
+                <li class="tec-bg">Html5</li>
+                <li class="tec-bg">Css3</li>
+                <li class="tec-bg">Figma</li>
+                <li class="tec-bg">Git</li>
+              </ul>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+
+    <a class="btn white botao-sec font2-m-b" href="./projetos.html">Ver Mais</a>
+
+  </article>
+
+  <footer class="footer">
+    <p class="cor-c6">© Criado por Matheus Rodrigues</p>
+  </footer>
+
+  <script src="./js/script.js"></script>
+  <script src="https://kit.fontawesome.com/36121fd456.js" crossorigin="anonymous"></script>
 </body>
+
 </html>

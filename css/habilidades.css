@@ -1,0 +1,81 @@
+.habilidades {
+  display: grid;
+}
+
+#habilidades-page .habilidades h2 {
+  text-align: center;
+  margin-top: 32px;
+}
+
+.habilidades h2 {
+  margin-bottom: 80px;
+}
+
+.habilidades span {
+  color: var(--cor-v5);
+}
+
+.habilidades-itens {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  margin-bottom: 24px;
+}
+
+.habilidade-item {
+  display: grid;
+  justify-items: center;
+  gap: 32px;
+  flex: 1;
+  padding: 40px;
+  border: 2px solid;
+  border-radius: 6px;
+}
+
+.habilidade-item h3 {
+  font: 700 1.5rem/1 "Poppins", sans-serif;
+}
+
+.habilidade-item a {
+  font: 700 1.125rem/1 "Roboto", sans-serif;
+}
+
+.habilidades .white {
+  justify-self: end;
+}
+
+@media (max-width: 800px) {
+  .habilidades h2 {
+    margin-bottom: 32px;
+  }
+}
+
+@media (max-width: 600px) {
+  .habilidade-item img {
+    width: 80px;
+  }
+  .habilidade-item h3 {
+    font-size: 1.125rem;
+  }
+  .habilidade-item a {
+    font-size: 1rem;
+  }
+  .habilidades h2 {
+    margin-bottom: 32px;
+  }
+  .habilidades-itens {
+    gap: 20px;
+  }
+}
+
+@media (max-width: 400px) {
+  .habilidade-item img {
+    width: 60px;
+  }
+  .habilidade-item a {
+    font-size: .875rem;
+  }
+  .habilidade-item h3 {
+    font-size: 1rem;
+  }
+}
