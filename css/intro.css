@@ -20,7 +20,7 @@
 }
 
 .social-itens li {
-  z-index: 0;
+  z-index: -1;
 }
 
 .social-itens  svg:hover path {
