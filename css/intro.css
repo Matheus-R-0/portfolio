@@ -19,6 +19,10 @@
   gap: 24px;
 }
 
+.social-itens li {
+  z-index: 0;
+}
+
 .social-itens  svg:hover path {
   fill: var(--cor-v6);
   transition: 0.2s ease-in-out;
