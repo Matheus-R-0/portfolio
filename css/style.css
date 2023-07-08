@@ -4,7 +4,6 @@
 
 @import './utilitario//tipografia.css';
 
-
 @import 'header.css';
 
 @import 'intro.css';
@@ -16,4 +15,5 @@
 @import 'projetos.css';
 
 @import 'footer.css';
+
 @import 'certificados.css';
