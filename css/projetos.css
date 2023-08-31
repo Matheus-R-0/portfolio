@@ -47,7 +47,7 @@
   border-bottom: 2px solid var(--cor-c3);
   border-left: 2px solid var(--cor-c3);
 }
-html:has(#toggle:checked) .projeto-info {
+html:has(#js-toggle:checked) .projeto-info {
   border-right: 2px solid var(--cor-c11);
   border-bottom: 2px solid var(--cor-c11);
   border-left: 2px solid var(--cor-c11);
@@ -90,7 +90,7 @@ html:has(#toggle:checked) .projeto-info {
   padding: 10px;
   text-transform: uppercase;
 }
-html:has(#toggle:checked) .tecnologia-lista li{
+html:has(#js-toggle:checked) .tecnologia-lista li{
   border: 1px solid var(--cor-c9);
 }
 
@@ -98,7 +98,7 @@ html:has(#toggle:checked) .tecnologia-lista li{
   cursor: default;
   border: 1px solid var(--cor-v6);
 }
-html:has(#toggle:checked) .tecnologia-lista li:hover{
+html:has(#js-toggle:checked) .tecnologia-lista li:hover{
   border: 1px solid var(--cor-v6);
 }
 

@@ -4,7 +4,7 @@
   top: 0;
   width: 100%;
 }
-#header:has(#toggle:checked) {
+#header:has(#js-toggle:checked) {
   box-shadow: 0px 1px 4px var(--cor-c12);
 }
 
@@ -44,7 +44,7 @@
 .menu li a:hover {
   color: var(--cor-v5);
 }
-html:has(#toggle:checked) .menu li a:hover {
+html:has(#js-toggle:checked) .menu li a:hover {
   color: var(--cor-v5);
 }
 

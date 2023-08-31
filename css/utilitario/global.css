@@ -78,7 +78,7 @@ button {
   border: 2px solid var(--cor-c4);
   border-radius: 6px;
 }
-html:has(#toggle:checked) .btn.off{
+html:has(#js-toggle:checked) .btn.off{
   border: 2px solid var(--cor-c9);
 }
 
@@ -92,7 +92,7 @@ html:has(#toggle:checked) .btn.off{
   background: none;
   color: var(--cor-c8);
 }
-html:has(#toggle:checked) .btn.white:hover {
+html:has(#js-toggle:checked) .btn.white:hover {
   color: var(--cor-c4);
 }
 
@@ -129,7 +129,7 @@ html:has(#toggle:checked) .btn.white:hover {
   width: 50px;
   transition: 0.2s ease-in-out;
 }
-html:has(#toggle:checked) .label{
+html:has(#js-toggle:checked) .label{
   background: var(--cor-c1);
 }
 
@@ -144,7 +144,7 @@ html:has(#toggle:checked) .label{
   transform: translateX(0px);
   transition: transform 0.2s linear;
 }
-html:has(#toggle:checked) .label .ball {
+html:has(#js-toggle:checked) .label .ball {
   background: var(--cor-b);
 }
 

@@ -27,7 +27,7 @@
   background: var(--cor-w);
   transition: 0.2s ease-in-out;
 }
-.body-bg:has(#toggle:checked) {
+.body-bg:has(#js-toggle:checked) {
   background: var(--cor-c13);
 }
 
@@ -35,7 +35,7 @@
   fill: var(--cor-c13);
   transition: 0.2s ease-in-out;
 }
-html:has(#toggle:checked) .logo-c {
+html:has(#js-toggle:checked) .logo-c {
   fill: var(--cor-c1);
 }
 
@@ -43,14 +43,14 @@ html:has(#toggle:checked) .logo-c {
   background: var(--cor-c1);
   transition: 0.2s ease-in-out;
 }
-.menu-bg:has(#toggle:checked) {
+.menu-bg:has(#js-toggle:checked) {
   background: var(--cor-b);
 }
 
 .menu-p {
   color: var(--cor-c13);
 }
-html:has(#toggle:checked) .menu-p {
+html:has(#js-toggle:checked) .menu-p {
   color: var(--cor-c1);
 }
 
@@ -58,7 +58,7 @@ html:has(#toggle:checked) .menu-p {
   color: var(--cor-c13);
   transition: 0.2s ease-in-out;
 }
-html:has(#toggle:checked) .title-c {
+html:has(#js-toggle:checked) .title-c {
   color: var(--cor-c1);
 }
 
@@ -66,7 +66,7 @@ html:has(#toggle:checked) .title-c {
   fill: var(--cor-c13);
   transition: 0.2s ease-in-out;
 }
-html:has(#toggle:checked) .icon-c{
+html:has(#js-toggle:checked) .icon-c{
   fill: var(--cor-c1);
 }
 
@@ -74,7 +74,7 @@ html:has(#toggle:checked) .icon-c{
   color: var(--cor-c10);
   transition: 0.2s ease-in-out;
 }
-html:has(#toggle:checked) .paragrafo-c{
+html:has(#js-toggle:checked) .paragrafo-c{
   color: var(--cor-c6);
 }
 
@@ -82,7 +82,7 @@ html:has(#toggle:checked) .paragrafo-c{
   background: var(--cor-c1);
   transition: 0.2s ease-in-out;
 }
-html:has(#toggle:checked) .square-bg{
+html:has(#js-toggle:checked) .square-bg{
   background: var(--cor-c12);
 }
 
@@ -90,7 +90,7 @@ html:has(#toggle:checked) .square-bg{
   color: var(--cor-c3);
   transition: 0.2s ease-in-out;
 }
-html:has(#toggle:checked) .square-borda{
+html:has(#js-toggle:checked) .square-borda{
   color: var(--cor-c11);
 }
 
@@ -98,7 +98,7 @@ html:has(#toggle:checked) .square-borda{
   color: var(--cor-c9);
   transition: 0.2s ease-in-out;
 }
-html:has(#toggle:checked) .cor-off{
+html:has(#js-toggle:checked) .cor-off{
   color: var(--cor-c7);
 }
 
@@ -106,7 +106,7 @@ html:has(#toggle:checked) .cor-off{
   color: var(--cor-c13);
   transition: 0.2s ease-in-out;
 }
-html:has(#toggle:checked) .botao-sec{
+html:has(#js-toggle:checked) .botao-sec{
   color: var(--cor-c1);
 }
 
@@ -115,7 +115,7 @@ html:has(#toggle:checked) .botao-sec{
   color: var(--cor-c10);
   transition: 0.2s ease-in-out;
 }
-html:has(#toggle:checked) .tec-bg{
+html:has(#js-toggle:checked) .tec-bg{
   background: var(--cor-c11);
   color: var(--cor-c4);
 }

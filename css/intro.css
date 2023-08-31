@@ -28,7 +28,7 @@
   fill: var(--cor-v6);
   transition: 0.2s ease-in-out;
 }
-html:has(#toggle:checked) .social-itens  svg:hover path {
+html:has(#js-toggle:checked) .social-itens  svg:hover path {
   fill: var(--cor-v6);
 }
 
